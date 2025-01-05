@@ -1,6 +1,6 @@
-package com.leetcode.solutions.OneToHundred.p1TwoSum.v1;
+package com.leetcode.solutions._1_to_100._1TwoSum.v1;
 
-public class BruteForceSolution {
+public class _1BruteForceSolution {
     public int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];
         ans[0] = ans[1] = -1;
@@ -17,7 +17,7 @@ public class BruteForceSolution {
     }
 
     public static void main(String args[]) {
-        BruteForceSolution solObj = new BruteForceSolution();
+        _1BruteForceSolution solObj = new _1BruteForceSolution();
         int[] nums = {3,2,4};
         int target = 6;
         int[] ans = solObj.twoSum(nums, target);
